@@ -36,7 +36,7 @@ export default function Header() {
         <div className="container nav-inner">
           <div className="site-branding">
             <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-              <div className="site-logo">H</div>
+              <img src="/images/company/company-hero.png" alt="Henghuang Trading" className="site-logo site-logo-img" />
               <div>
                 <div className="site-name">Henghuang Trading</div>
                 <div className="site-tagline">Trusted Peptide Supplier in China</div>

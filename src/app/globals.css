@@ -116,6 +116,11 @@ ol {
   font-size: 20px;
 }
 
+.site-logo-img {
+  object-fit: cover;
+  background: #fff;
+}
+
 .site-name {
   font-weight: 700;
   font-size: 18px;
