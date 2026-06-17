@@ -2340,9 +2340,9 @@ export const products: Product[] = [
     note: 'Box set packaging accessory for GLOW + GHK-Cu kits.',
     faqs: [],
     variants: [
-      { label: 'GLOW + GHK-Cu Box Set', price: 40, imageUrl: v('GLOW+GHK_CUbox set.png') },
+      { label: 'GLOW + GHK-Cu Box Set', price: 40, imageUrl: v('GLOW + GHK-Cu Box Set.png') },
     ],
-    imageUrl: v('GLOW+GHK_CUbox set.png'),
+    imageUrl: v('GLOW + GHK-Cu Box Set.png'),
   },
 
   // ---------- Lipo-C / MIC blends (rebuilt from price data) ----------
