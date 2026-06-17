@@ -450,40 +450,6 @@ export const products: Product[] = [
     ],
     imageUrl: v('AP2.png'),
   },
-  {
-    id: 'hgh',
-    slug: 'hgh',
-    name: 'HMG',
-    tagline: 'Human Menopausal Gonadotropin | HGH Axis Research Peptide',
-    category: 'Fat Loss',
-    overview:
-      'HMG (Human Menopausal Gonadotropin) is a research peptide containing both FSH and LH activity. Used in advanced research related to the HGH axis and reproductive endocrinology.',
-    description:
-      'HMG (75 IU) research peptide for gonadotropin and HGH axis studies.',
-    keyBenefits: [
-      'Contains both FSH and LH activity',
-      'Supports research on the HGH axis',
-      'High-purity research-grade peptide',
-    ],
-    reconstitutionInstructions: [
-      'Reconstitute with Bacteriostatic Water',
-      'Gently swirl to dissolve',
-      'Refrigerate after reconstitution',
-    ],
-    dosingGuidelines: [
-      'Per research protocol',
-      'Subcutaneous injection',
-    ],
-    monitoring: [
-      'Monitor hormone levels per protocol',
-    ],
-    note: 'For research use only. Not for human consumption.',
-    faqs: [],
-    variants: [
-      { label: '75IU × 10 Vials', price: 75, imageUrl: v('G75.png') },
-    ],
-    imageUrl: v('G75.png'),
-  },
 
   // ---------- Growth Hormone ----------
   {
@@ -2323,36 +2289,6 @@ export const products: Product[] = [
 
   // ---------- Lipo-C / MIC blends (rebuilt from price data) ----------
   {
-    id: 'lipo-c-fat-blaster',
-    slug: 'lipo-c-fat-blaster',
-    name: 'Lipo-C Fat Blaster',
-    tagline: 'Lipotropic Injection Blend | Metabolism Boost & Fat Processing Support',
-    category: 'Fat Loss',
-    overview:
-      'Lipo-C Fat Blaster supports metabolism, liver fat processing, and increased energy, especially when combined with a healthy diet and exercise.',
-    description:
-      'Lipotropic injection blend supporting metabolism, liver function, and targeted fat reduction.',
-    keyBenefits: [
-      'Boosts metabolism',
-      'Supports liver fat processing',
-      'Increases energy levels',
-      'Targets stubborn fat',
-      'Minimally invasive',
-    ],
-    reconstitutionInstructions: [
-      'Reconstitute as directed',
-      'Use immediately or refrigerate',
-    ],
-    dosingGuidelines: ['Per research protocol guidelines'],
-    monitoring: ['Track energy and body composition'],
-    note: 'Lipo-C injections are often combined with B vitamins to accelerate metabolism.',
-    faqs: [],
-    variants: [
-      { label: 'Lipo-C Fat Blaster (526mg/ml × 10ml)', price: 188, imageUrl: v('LC526.png') },
-    ],
-    imageUrl: v('LC526.png'),
-  },
-  {
     id: 'mic-blend',
     slug: 'mic-blend',
     name: 'MIC Blend',
@@ -2380,35 +2316,6 @@ export const products: Product[] = [
       { label: '10ml × 10 Vials', price: 120, imageUrl: v('MIC blend.png') },
     ],
     imageUrl: v('MIC blend.png'),
-  },
-  {
-    id: 'lipo-c-enhanced',
-    slug: 'lipo-c-enhanced',
-    name: 'Lipo-C Enhanced v3',
-    tagline: 'Liposomal Vitamin C | Immune Support, Antioxidant & Collagen Production',
-    category: 'Beauty',
-    overview:
-      'Lipo-C Enhanced is a liposomal vitamin C produced through liposomalization technology. It encapsulates vitamin C within tiny lipid vesicles composed of phospholipids, protecting it from digestive damage and facilitating more efficient transportation to cells.',
-    description:
-      'Enhanced vitamin C formulation with liposome technology for superior absorption, immune support, and antioxidant protection.',
-    keyBenefits: [
-      'Enhances immune function',
-      'Potent antioxidant',
-      'Promotes collagen synthesis',
-      'Improves skin health and wound healing',
-      'Alleviates fatigue',
-    ],
-    reconstitutionInstructions: [
-      'Mix with cold water, juice, or smoothies',
-    ],
-    dosingGuidelines: ['Follow recommended daily intake guidelines'],
-    monitoring: ['Monitor for GI discomfort at high doses'],
-    note: 'Liposome technology enhances absorption vs standard vitamin C.',
-    faqs: [],
-    variants: [
-      { label: '10ml × 10 Vials', price: 173, imageUrl: v('Lipo-C Enhanced version 3.png') },
-    ],
-    imageUrl: v('Lipo-C Enhanced version 3.png'),
   },
 ];
 
