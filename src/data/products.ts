@@ -596,6 +596,7 @@ export const products: Product[] = [
     faqs: [],
     variants: [
       { label: '5mg+5mg / 10mg', price: 135, imageUrl: v('CP10.png') },
+      { label: '10mg+10mg / 20mg', price: 245, imageUrl: v('CP20.png') },
     ],
     imageUrl: v('CP10.png'),
   },
