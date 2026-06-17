@@ -97,8 +97,9 @@ export default function AboutPage() {
   return (
     <main>
       {/* Page header */}
-      <section className="page-header">
-        <div className="container">
+      <section className="page-header about-hero-image">
+        <img src="/images/company/company-hero.png" alt="Henghuang Trading company" />
+        <div className="container about-hero-content">
           <h1>About Us</h1>
           <p>
             15+ years of peptide manufacturing excellence. GMP-compliant, third-party tested, and trusted by
