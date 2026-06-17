@@ -567,9 +567,9 @@ export const products: Product[] = [
     imageUrl: v('CND5.png'),
   },
   {
-    id: 'cjc-no-dac-blend',
-    slug: 'cjc-no-dac-blend',
-    name: 'CJC no Dac Blend',
+    id: 'cjc-no-dac',
+    slug: 'cjc-no-dac',
+    name: 'CJC no Dac',
     tagline: 'CJC-1295 no DAC Blend | Multi-dose GHRH Combination',
     category: 'Growth Hormone',
     overview:
@@ -596,7 +596,6 @@ export const products: Product[] = [
     faqs: [],
     variants: [
       { label: '5mg+5mg / 10mg', price: 135, imageUrl: v('CP10.png') },
-      { label: '10mg+10mg / 20mg', price: 245, imageUrl: v('CP20.png') },
     ],
     imageUrl: v('CP10.png'),
   },
@@ -2288,35 +2287,6 @@ export const products: Product[] = [
   },
 
   // ---------- Lipo-C / MIC blends (rebuilt from price data) ----------
-  {
-    id: 'mic-blend',
-    slug: 'mic-blend',
-    name: 'MIC Blend',
-    tagline: 'Methionine + Inositol + Choline | Lipotropic Injection for Fat Metabolism',
-    category: 'Fat Loss',
-    overview:
-      'MIC blend peptides refer to a mixture of three substances: Methionine, Inositol, and Choline, used in lipotropic injections to assist in fat metabolism.',
-    description:
-      'Lipotropic injection blend (Methionine, Inositol, Choline) for enhanced fat metabolism and liver health.',
-    keyBenefits: [
-      'Promotes fat breakdown',
-      'Prevents excessive liver fat accumulation',
-      'Supports liver health and detoxification',
-      'Boosts energy and metabolism',
-    ],
-    reconstitutionInstructions: [
-      'Reconstitute as directed',
-      'Use immediately or refrigerate',
-    ],
-    dosingGuidelines: ['Per research protocol guidelines'],
-    monitoring: ['Track energy and body composition'],
-    note: 'Often combined with B12 to maximize metabolic benefits.',
-    faqs: [],
-    variants: [
-      { label: '10ml × 10 Vials', price: 120, imageUrl: v('MIC blend.png') },
-    ],
-    imageUrl: v('MIC blend.png'),
-  },
 ];
 
 export interface BlogPost {
