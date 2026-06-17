@@ -1601,6 +1601,64 @@ export const products: Product[] = [
     imageUrl: v('P41.png'),
   },
   {
+    id: 'mt2',
+    slug: 'mt2',
+    name: 'MT2',
+    tagline: 'Melatonin Receptor Agonist | Sleep & Circadian Research Peptide',
+    category: 'Cognitive',
+    overview:
+      'MT2 is a selective melatonin receptor agonist used in research targeting MT2 receptors, which are primarily involved in circadian rhythm regulation and sleep onset.',
+    description:
+      'Selective MT2 melatonin receptor agonist for sleep and circadian rhythm research.',
+    keyBenefits: [
+      'Selective MT2 receptor targeting',
+      'Sleep onset regulation',
+      'Circadian rhythm research',
+      'Reduced next-day drowsiness',
+    ],
+    reconstitutionInstructions: [
+      'Reconstitute with Bacteriostatic Water',
+      'Gently swirl until dissolved',
+    ],
+    dosingGuidelines: ['Per research protocol'],
+    monitoring: ['Track sleep onset latency'],
+    note: 'Selective MT2 receptor agonist for circadian rhythm research.',
+    faqs: [],
+    variants: [
+      { label: '10mg × 10 Vials', price: 60, imageUrl: v('MT2.png') },
+    ],
+    imageUrl: v('MT2.png'),
+  },
+  {
+    id: 'mt1',
+    slug: 'mt1',
+    name: 'MT1',
+    tagline: 'Melatonin Receptor Agonist | Sleep & Circadian Research Peptide',
+    category: 'Cognitive',
+    overview:
+      'MT1 is a selective melatonin receptor agonist used in research targeting MT1 receptors, which are primarily involved in sleep maintenance and circadian phase control.',
+    description:
+      'Selective MT1 melatonin receptor agonist for sleep maintenance and circadian research.',
+    keyBenefits: [
+      'Selective MT1 receptor targeting',
+      'Sleep maintenance research',
+      'Circadian phase regulation',
+      'Potent antioxidant properties',
+    ],
+    reconstitutionInstructions: [
+      'Reconstitute with Bacteriostatic Water',
+      'Gently swirl until dissolved',
+    ],
+    dosingGuidelines: ['Per research protocol'],
+    monitoring: ['Track sleep quality and duration'],
+    note: 'Selective MT1 receptor agonist for sleep maintenance research.',
+    faqs: [],
+    variants: [
+      { label: '10mg × 10 Vials', price: 60, imageUrl: v('MT1.png') },
+    ],
+    imageUrl: v('MT1.png'),
+  },
+  {
     id: 'melatonin',
     slug: 'melatonin',
     name: 'Melatonin',
@@ -1622,10 +1680,10 @@ export const products: Product[] = [
     ],
     dosingGuidelines: ['Per research protocol'],
     monitoring: ['Track sleep quality'],
-    note: 'Available in multiple concentrations for research flexibility.',
+    note: 'High-dose melatonin formulation for antioxidant and cellular protection research.',
     faqs: [],
     variants: [
-      { label: '10mg × 10 Vials', price: 60, imageUrl: v('MT10.png') },
+      { label: '10mg × 10 Vials', price: 80, imageUrl: v('MT10.png') },
     ],
     imageUrl: v('MT10.png'),
   },
