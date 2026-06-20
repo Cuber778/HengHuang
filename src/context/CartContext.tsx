@@ -82,18 +82,6 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(cartReducer, { items: [] });
 
   useEffect(() => {
-    try {
-      const saved = localStorage.getItem('ht-cart');
-      if (saved) {
-        const parsed = JSON.parse(saved) as CartItem[];
-        parsed.forEach((item) => {
-          dispatch({ type: 'ADD', product: item.product, variantIndex: item.variantIndex, quantity: item.quantity });
-        });
-      }
-    } catch {}
-  }, []);
-
-  useEffect(() => {
     localStorage.setItem('ht-cart', JSON.stringify(state.items));
   }, [state.items]);
 

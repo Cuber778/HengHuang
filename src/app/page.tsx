@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { blogPosts, contactInfo, products, salesExperts } from '@/data/products';
-import AddToCartButton from '@/components/AddToCartButton';
 
 export default function HomePage() {
   return (
@@ -37,7 +36,13 @@ export default function HomePage() {
                       ? `From $${product.variants[0].price.toFixed(2)}`
                       : 'Contact for price'}
                   </span>
-                  <AddToCartButton product={product} size="sm" />
+                  <Link
+                    href={`/products/${product.slug}`}
+                    className="btn btn-primary btn-sm"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    View Details
+                  </Link>
                 </div>
               </div>
             ))}

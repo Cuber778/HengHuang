@@ -1,8 +1,16 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import './globals.css';
 import { CartProvider } from '@/context/CartContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FloatingContact from '@/components/FloatingContact';
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export const metadata: Metadata = {
   title: {
@@ -28,7 +36,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230073aa'/><text y='72' x='50' text-anchor='middle' font-size='62' font-family='Arial Black' font-weight='900' fill='white'>H</text></svg>",
+        url: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230d8a72'/><text y='72' x='50' text-anchor='middle' font-size='62' font-family='Arial Black' font-weight='900' fill='white'>H</text></svg>",
         type: 'image/svg+xml',
       },
     ],
@@ -37,12 +45,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.variable}>
       <body>
         <CartProvider>
           <Header />
           {children}
           <Footer />
+          <FloatingContact />
         </CartProvider>
       </body>
     </html>

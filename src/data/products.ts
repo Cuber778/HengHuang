@@ -60,7 +60,7 @@ export const products: Product[] = [
     faqs: [
       { q: 'What Carrier Oil/solvents are used for your injectables?', a: 'USP Grade MCT oil is the carrier oil. The only solvents used are Benzyl Alcohol & Benzyl Benzoate (BA & BB).' },
       { q: 'Do your products come with bacteriostatic water?', a: 'No, you must purchase it separately.' },
-      { q: 'What payment methods do you accept?', a: 'Mainly Bitcoin, if needed PayPal, Alibaba Credit Insurance Order and Bank Transfer.' },
+      { q: 'What payment methods do you accept?', a: 'Mainly Bitcoin (BTC) and USDT (ERC-20). Bank Transfer is also available for large orders — please confirm with our sales team.' },
       { q: 'How long does shipping take?', a: 'Depending on your location, most customers receive their order in 2–10 business days.' },
     ],
     variants: [
@@ -2361,7 +2361,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'peptide-laboratory-pioneers',
     title: 'Henghuang Trading Pioneers Next-Generation Breakthroughs in Biotechnology',
-    date: 'August 22, 2025',
+    date: 'June 18, 2026',
     excerpt:
       'In the rapidly evolving field of biotechnology, Henghuang Trading is emerging as a global leader in the research, development, and application of peptide-based innovations.',
     imageUrl: 'https://huataipeptide.com/wp-content/uploads/2025/08/news1-300x225.jpg',
@@ -2380,7 +2380,7 @@ As the world seeks faster, safer, and more effective biomedical solutions, Hengh
   {
     slug: 'next-generation-peptide-innovations',
     title: 'Next-Generation Peptide Innovations Driving Biotechnology Breakthroughs',
-    date: 'August 22, 2025',
+    date: 'June 18, 2026',
     excerpt:
       'Discover how leading peptide laboratories are driving next-generation breakthroughs in biotechnology, transforming medicine, research, and innovative therapies.',
     imageUrl: 'https://huataipeptide.com/wp-content/uploads/2025/08/news2-300x225.jpg',
@@ -2397,11 +2397,11 @@ As biotechnology continues to advance, the role of peptide laboratories remains 
   {
     slug: 'freeze-dried-powder-production',
     title: 'Freeze-Dried Powder Production Emerges as a Key Driver in Modern Biotechnology',
-    date: 'August 22, 2025',
+    date: 'June 18, 2026',
     excerpt:
       'As global demand for stable, efficient, and high-quality biopharmaceutical products continues to surge, freeze-dried powder production is becoming a cornerstone technology.',
     imageUrl: 'https://huataipeptide.com/wp-content/uploads/2025/08/news3-300x225.jpg',
-    content: `August 22, 2025 – As global demand for stable, efficient, and high-quality biopharmaceutical products continues to surge, freeze-dried powder production is becoming a cornerstone technology in the biotechnology and pharmaceutical industries. Experts highlight that this process—also known as lyophilization—offers unmatched advantages in drug stability, storage, and transportation.
+    content: `June 18, 2026 – As global demand for stable, efficient, and high-quality biopharmaceutical products continues to surge, freeze-dried powder production is becoming a cornerstone technology in the biotechnology and pharmaceutical industries. Experts highlight that this process—also known as lyophilization—offers unmatched advantages in drug stability, storage, and transportation.
 
 Freeze-dried powders are widely applied in vaccines, peptide drugs, antibiotics, and cosmetic formulations. Unlike liquid preparations, freeze-dried products retain their bioactivity for longer periods without refrigeration, making them especially valuable for global health initiatives and emerging markets where cold-chain logistics remain a challenge.
 
@@ -2416,7 +2416,7 @@ Analysts note that the growing emphasis on long-term drug stability, combined wi
   {
     slug: 'revolutionizing-biotechnology',
     title: 'Revolutionizing Biotechnology: Next-Generation Peptide Innovations',
-    date: 'August 22, 2025',
+    date: 'June 18, 2026',
     excerpt:
       'In the realm of modern biotechnology, peptides have emerged as a cornerstone of innovation. Leading peptide laboratories are pioneering next-generation solutions.',
     imageUrl: 'https://huataipeptide.com/wp-content/uploads/2025/08/news4-300x225.jpg',
@@ -2440,6 +2440,20 @@ export const contactInfo = {
   email: '123456789li828@gmail.com',
   whatsapp: '+8618296549992',
   phone: '+8618296549992',
+  crypto: {
+    btc: {
+      label: 'Bitcoin (BTC)',
+      network: 'Bitcoin mainnet',
+      address: 'bc1p4tnx7xv97ra5t3jj79029hhat7lftdk7jps3u3ed697fywjqumpqppffex',
+      qrImages: [] as string[],
+    },
+    usdt: {
+      label: 'USDT (ERC-20)',
+      network: 'Ethereum (ERC-20)',
+      address: '0x64bc7f5Bb5640168Bd4d8563fE7987B4b1E6e229',
+      qrImages: [],
+    },
+  },
 };
 
 export const salesExperts = [

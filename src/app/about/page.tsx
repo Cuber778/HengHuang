@@ -179,6 +179,27 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Company photos */}
+      <section style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)', padding: '40px 0' }}>
+        <div className="container">
+          <div className="section-header" style={{ marginBottom: 24 }}>
+            <h2>Our Facility</h2>
+          </div>
+          <div className="company-photos-grid">
+            {[
+              { src: '/images/company/company-photo-1.jpg', alt: 'Henghuang Trading laboratory' },
+              { src: '/images/company/company-photo-2.jpg', alt: 'Peptide manufacturing equipment' },
+              { src: '/images/company/company-photo-3.jpg', alt: 'Quality control testing room' },
+              { src: '/images/company/company-photo-4.jpg', alt: 'Research and development facility' },
+            ].map((photo, i) => (
+              <div key={i} className="company-photo-item">
+                <img src={photo.src} alt={photo.alt} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* What we do */}
       <section className="section" style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)' }}>
         <div className="container">
