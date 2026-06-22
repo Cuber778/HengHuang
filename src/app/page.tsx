@@ -1,9 +1,13 @@
 import Link from 'next/link';
+import HeroCarousel from '@/components/HeroCarousel';
 import { blogPosts, contactInfo, products, salesExperts } from '@/data/products';
 
 export default function HomePage() {
   return (
     <div>
+      {/* Hero carousel */}
+      <HeroCarousel />
+
       {/* Products Categories */}
       <section className="section">
         <div className="container">

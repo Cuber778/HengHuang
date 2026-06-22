@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import AutoScrollCarousel from '@/components/AutoScrollCarousel';
 import { salesExperts, contactInfo } from '@/data/products';
 
 export const metadata = {
@@ -98,7 +98,7 @@ export default function AboutPage() {
     <main>
       {/* Page header */}
       <section className="page-header about-hero-image">
-        <img src="/images/company/company-hero.png" alt="Henghuang Trading company" />
+        <img src="/images/homepage/lab-banner.jpg" alt="Henghuang Trading laboratory" />
         <div className="container about-hero-content">
           <h1>About Us</h1>
           <p>
@@ -179,24 +179,23 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Company photos */}
+      {/* Company photos — auto-scrolling carousel */}
       <section style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)', padding: '40px 0' }}>
         <div className="container">
           <div className="section-header" style={{ marginBottom: 24 }}>
             <h2>Our Facility</h2>
           </div>
-          <div className="company-photos-grid">
-            {[
+          <AutoScrollCarousel
+            photos={[
               { src: '/images/company/company-photo-1.jpg', alt: 'Henghuang Trading laboratory' },
               { src: '/images/company/company-photo-2.jpg', alt: 'Peptide manufacturing equipment' },
               { src: '/images/company/company-photo-3.jpg', alt: 'Quality control testing room' },
               { src: '/images/company/company-photo-4.jpg', alt: 'Research and development facility' },
-            ].map((photo, i) => (
-              <div key={i} className="company-photo-item">
-                <img src={photo.src} alt={photo.alt} />
-              </div>
-            ))}
-          </div>
+              { src: '/images/company/company-photo-5.jpg', alt: 'Manufacturing floor overview' },
+              { src: '/images/company/company-photo-6.jpg', alt: 'Laboratory workspace' },
+              { src: '/images/company/company-photo-7.jpg', alt: 'Production facility' },
+            ]}
+          />
         </div>
       </section>
 
