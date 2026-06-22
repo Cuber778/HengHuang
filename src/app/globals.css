@@ -2268,7 +2268,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
   display: block;
 }
 .homepage-hero-overlay {
@@ -2280,10 +2280,7 @@ ol {
 .homepage-hero-content {
   position: relative;
   z-index: 2;
-  padding: 64px 0 48px;
   width: 100%;
-  color: #fff;
-  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.15) 60%, transparent 100%);
 }
 .homepage-hero-content h1 {
   font-size: clamp(28px, 4vw, 52px);

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import Link from 'next/link';
 
 const slides = [
   {
@@ -55,14 +54,7 @@ export default function HeroCarousel() {
       ))}
 
       <div className="homepage-hero-overlay">
-        <div className="container homepage-hero-content">
-          <h1>Leading Peptide Supplier in China</h1>
-          <p>GMP-compliant manufacturing &middot; Bulk &amp; custom synthesis &middot; 15+ years of excellence</p>
-          <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 8 }}>
-            <Link href="/products" className="btn btn-primary">Shop Products</Link>
-            <Link href="/quote" className="btn" style={{ background: 'rgba(255,255,255,0.15)', color: '#fff', border: '1px solid rgba(255,255,255,0.4)' }}>Get a Quote</Link>
-          </div>
-        </div>
+        <div className="container homepage-hero-content" />
       </div>
 
       <button className="hero-arrow hero-arrow-prev" onClick={prev} aria-label="Previous">
