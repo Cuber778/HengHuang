@@ -11,6 +11,10 @@ const slides = [
     src: '/images/homepage/lab-banner.jpg',
     alt: 'Henghuang Trading - Peptide Manufacturing Facility',
   },
+  {
+    src: '/images/homepage/851782239076_.pic_hd.jpg',
+    alt: 'Peptide research laboratory',
+  },
 ];
 
 export default function HeroCarousel() {

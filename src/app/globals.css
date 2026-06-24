@@ -1,9 +1,9 @@
 :root {
-  /* Brand — cool jade (trust, life, lab) */
-  --primary: #0d8a72;
-  --primary-dark: #086857;
-  --primary-light: #e6f5f1;
-  --primary-rgb: 13, 138, 114;
+  /* Brand — deep blue (trust, science, lab) */
+  --primary: #00158c;
+  --primary-dark: #001065;
+  --primary-light: #e6eaf5;
+  --primary-rgb: 0, 21, 140;
 
   /* Neutrals — slightly cooler than before, less "Office 2007" */
   --foreground: #1a1f24;
@@ -121,8 +121,8 @@ ol {
 }
 
 .site-logo {
-  width: 42px;
-  height: 42px;
+  width: 64px;
+  height: 64px;
   border-radius: var(--radius);
   background: linear-gradient(180deg, #16a187, #086857);
   display: flex;
@@ -2268,7 +2268,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center;
+  object-position: center;
   display: block;
 }
 .homepage-hero-overlay {
@@ -2553,7 +2553,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
   z-index: 0;
 }
 .product-hero-content {

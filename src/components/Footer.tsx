@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <div className="logo-text">
-            <div className="site-logo" style={{ width: 34, height: 34, fontSize: 15 }}>H</div>
+            <img src="/images/company-logo.jpg" alt="Henghuang Trading" className="site-logo site-logo-img" style={{ width: 80, height: 56, objectFit: 'cover' }} />
             Henghuang Trading
           </div>
           <p>
