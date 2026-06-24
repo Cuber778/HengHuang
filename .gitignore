@@ -35,3 +35,7 @@ yarn-error.log*
 # Testing
 coverage/
 node_modules
+
+# Source / asset files (not for git)
+素材/
+public/uploads/
