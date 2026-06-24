@@ -58,8 +58,9 @@ export default async function ProductsPage({
 
   return (
     <main>
-      <section className="page-header">
-        <div className="container">
+      <section className="page-header product-hero-image">
+        <img src="/images/homepage/product-banner.jpg" alt="Our Products" />
+        <div className="container product-hero-content">
           <h1>Products</h1>
           <p>Research peptides, beauty peptides, and fitness peptides for global customers.</p>
         </div>
