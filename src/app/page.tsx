@@ -58,7 +58,7 @@ export default function HomePage() {
       </section>
 
       {/* What We Do */}
-      <section className="section" style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)' }}>
+      <section className="wwd-section">
         <div className="container">
           <div className="section-header">
             <h2>What we do</h2>

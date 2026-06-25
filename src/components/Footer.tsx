@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <div className="logo-text">
-            <img src="/images/company-logo.jpg" alt="Henghuang Trading" className="site-logo site-logo-img" style={{ width: 80, height: 56, objectFit: 'cover' }} />
+            <img src="/images/company/company-hero.jpg" alt="Henghuang Trading" className="site-logo site-logo-img" />
             Henghuang Trading
           </div>
           <p>
@@ -37,7 +37,7 @@ export default function Footer() {
           <ul className="footer-links">
             <li><Link href="/products/retatrutide">Retatrutide</Link></li>
             <li><Link href="/products/tirzepatide">Tirzepatide</Link></li>
-            <li><Link href="/products/glow">GLOW</Link></li>
+            <li><Link href="/products/glow70">GLOW</Link></li>
             <li><Link href="/products/nad-plus">NAD+</Link></li>
             <li><Link href="/products/bpc157tb500">BPC157+TB500</Link></li>
           </ul>
@@ -47,10 +47,10 @@ export default function Footer() {
           <h4>Support</h4>
           <ul className="footer-links">
             <li><Link href="/quote">Request a Quote</Link></li>
-            <li>Bulk Supply</li>
-            <li>Custom Synthesis</li>
-            <li>Quality Control</li>
-            <li>Global Shipping</li>
+            <li><Link href="/products">Bulk Supply</Link></li>
+            <li><Link href="/about">Custom Synthesis</Link></li>
+            <li><Link href="/coa">Quality Control</Link></li>
+            <li><Link href="/products">Global Shipping</Link></li>
           </ul>
         </div>
       </div>

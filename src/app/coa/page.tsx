@@ -19,8 +19,9 @@ const coaImages = [
 export default function COAPage() {
   return (
     <>
-      <section className="page-header">
-        <div className="container">
+      <section className="coa-hero-image">
+        <img src="/images/homepage/coa-banner.jpg" alt="COA" />
+        <div className="container coa-hero-content">
           <h1>Certificate of Analysis (COA)</h1>
           <p>Verified quality certificates for our peptide products.</p>
         </div>

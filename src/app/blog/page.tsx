@@ -8,8 +8,9 @@ export const metadata = {
 export default function BlogPage() {
   return (
     <main>
-      <section className="page-header">
-        <div className="container">
+      <section className="blog-hero-image">
+        <img src="/images/homepage/blog-banner.jpg" alt="Blog" />
+        <div className="container blog-hero-content">
           <h1>News, Trends &amp; Blog</h1>
           <p>Insights and updates from the peptide and biotechnology industry.</p>
         </div>

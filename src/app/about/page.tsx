@@ -200,7 +200,7 @@ export default function AboutPage() {
       </section>
 
       {/* What we do */}
-      <section className="section" style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)' }}>
+      <section className="wwd-section">
         <div className="container">
           <div className="section-header">
             <h2>What We Do</h2>

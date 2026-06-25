@@ -31,11 +31,12 @@ export default async function BlogDetail({ params }: { params: Promise<{ slug: s
 
   return (
     <main>
-      <section className="page-header">
-        <div className="container">
-          <div className="small muted" style={{ marginBottom: 8 }}>{post.date}</div>
-          <h1 style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', margin: 0 }}>{post.title}</h1>
-          <p style={{ marginTop: 10 }}>{post.excerpt}</p>
+      <section className="blog-hero-image">
+        <img src="/images/homepage/blog-banner.jpg" alt="Blog" />
+        <div className="container blog-hero-content">
+          <div className="small" style={{ marginBottom: 8, color: 'rgba(255,255,255,0.75)' }}>{post.date}</div>
+          <h1 style={{ fontSize: 'clamp(24px, 3.5vw, 40px)', margin: 0, color: '#fff', textShadow: '0 2px 8px rgba(0,0,0,0.4)' }}>{post.title}</h1>
+          <p style={{ marginTop: 10, color: '#f0f0f0', textShadow: '0 1px 4px rgba(0,0,0,0.4)' }}>{post.excerpt}</p>
         </div>
       </section>
 
