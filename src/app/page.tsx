@@ -59,6 +59,7 @@ export default function HomePage() {
 
       {/* What We Do */}
       <section className="wwd-section">
+        <img src="/images/homepage/wwd-banner.jpg" alt="" className="section-bg" />
         <div className="container">
           <div className="section-header">
             <h2>What we do</h2>

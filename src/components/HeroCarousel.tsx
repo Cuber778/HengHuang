@@ -4,10 +4,6 @@ import { useState, useEffect, useRef } from 'react';
 
 const slides = [
   {
-    src: '/images/homepage/promo-banner.jpg',
-    alt: 'Peptide Products - Beauty & Wellness Solutions',
-  },
-  {
     src: '/images/homepage/lab-banner.jpg',
     alt: 'Henghuang Trading - Peptide Manufacturing Facility',
   },

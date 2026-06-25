@@ -39,6 +39,7 @@ export default function QuotePage() {
     <main>
       {/* ── Hero ── */}
       <section className="quote-hero">
+        <img src="/images/homepage/promo-banner.jpg" alt="" />
         <div className="container">
           <h1>Get a Quote</h1>
           <p>

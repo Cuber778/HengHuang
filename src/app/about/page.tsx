@@ -201,6 +201,7 @@ export default function AboutPage() {
 
       {/* What we do */}
       <section className="wwd-section">
+        <img src="/images/homepage/wwd-banner.jpg" alt="" className="section-bg" />
         <div className="container">
           <div className="section-header">
             <h2>What We Do</h2>
@@ -208,21 +209,9 @@ export default function AboutPage() {
           <div className="grid grid-2" style={{ gap: 24 }}>
             {whatWeDoItems.map((item) => (
               <div key={item.title} className="card-flat">
-                <span
-                  style={{
-                    fontSize: 11,
-                    fontWeight: 700,
-                    color: 'var(--primary)',
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.08em',
-                    display: 'block',
-                    marginBottom: 8,
-                  }}
-                >
-                  {item.eyebrow}
-                </span>
-                <h3 style={{ fontSize: 18, marginBottom: 10 }}>{item.title}</h3>
-                <p style={{ fontSize: 14 }}>{item.text}</p>
+                <span className="wwd-eyebrow">{item.eyebrow}</span>
+                <h3>{item.title}</h3>
+                <p>{item.text}</p>
               </div>
             ))}
           </div>
